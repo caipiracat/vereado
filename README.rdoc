@@ -13,6 +13,11 @@ Things you may want to cover:
 
 * Database creation
 
+    cp config/database.yml.example config/database.yml
+    rake db:create
+    rake db:migrate
+    rake db:seed
+
 * Database initialization
 
 * How to run the test suite
