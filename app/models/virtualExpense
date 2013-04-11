@@ -1,0 +1,22 @@
+class VirtualExpense 
+
+	attr_reader :name,:description,:year,:jan,:fev,:mar,:abr,:mai,:jun,:jul,:ago,:set,:out,:nov,:dez 
+
+	def initialize(name,description,year,jan,fev,mar,abr,mai,jun,jul,ago,set,out,nov,dez)
+		 @name = name
+		 @description = description
+		 @year = year
+		 @jan = jan
+		 @fev = fev
+		 @mar = mar
+		 @abr = abr
+		 @mai = mai
+		 @jun = jun
+		 @jul = jul
+		 @ago = ago
+		 @set = set
+		 @out = out
+		 @nov = nov
+		 @dez = dez
+	end
+end
